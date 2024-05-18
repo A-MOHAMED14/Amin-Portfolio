@@ -10,7 +10,7 @@
 
 body {
   /* background: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%); */
-  background-color: black;
+  background-color: black !important;
 }
 
 /* ------- NAVBAR STYLING  ------- */
@@ -235,4 +235,63 @@ footer .email {
 p {
   color: white;
   margin-bottom: 20px;
+} */
+
+/* ------- TECHNOLOGIES STYLING ------- */
+
+#technologies-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#technologies {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1 1 800px;
+  max-width: 1100px;
+  color: white;
+  padding: 20px;
+  color: white;
+}
+
+#technologies h2 {
+  font-family: var(--poppins);
+  font-weight: 600;
+  font-style: normal;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+#technologies p {
+  font-family: var(--poppins);
+  font-weight: 200;
+  font-style: normal;
+  font-size: 1.2rem;
+  margin-bottom: 75px;
+}
+
+#technologies .col-sm-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  border: 1px solid white;
+}
+
+/* #technologies .tech-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 250px;
+}
+
+#technologies .tech-container .name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 } */
