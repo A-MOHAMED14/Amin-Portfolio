@@ -41,7 +41,7 @@ nav a {
   text-decoration: none;
 }
 
-/* ------- BIO STYLING ------- */
+/* ------------ BIO STYLING ------------ */
 
 article {
   display: flex;
@@ -152,7 +152,7 @@ main {
   }
 } */
 
-/* ------- FOOTER STYLING ------- */
+/* ---------- FOOTER STYLING ---------- */
 
 /* footer .container {
   color: white;
@@ -195,7 +195,7 @@ footer .email {
   font-size: 2rem;
 }
 
-/* ------- ABOUT ME STYLING ------- */
+/* ---------- ABOUT ME STYLING ---------- */
 
 #about-me-container {
   height: 100vh;
@@ -237,7 +237,7 @@ p {
   margin-bottom: 20px;
 } */
 
-/* ------- TECHNOLOGIES STYLING ------- */
+/* --------- TECHNOLOGIES STYLING --------- */
 
 #technologies-container {
   height: 100vh;
@@ -295,3 +295,88 @@ p {
   align-items: center;
   text-align: center;
 } */
+
+/* ---------- PROJECTS STYLING ---------- */
+
+#projects-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#projects {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1 1 800px;
+  max-width: 1100px;
+  color: white;
+  padding: 20px;
+}
+
+#projects h2 {
+  font-family: var(--poppins);
+  font-weight: 600;
+  font-style: normal;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+#projects p {
+  font-family: var(--poppins);
+  font-weight: 200;
+  font-style: normal;
+  font-size: 1.2rem;
+  margin-bottom: 100px;
+}
+
+
+/* #project-1 {
+  border: 3px solid red;
+  border-radius: 10px;
+
+}
+
+#project-1 h3 {
+  font-family: var(--poppins);
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5rem;
+  margin-top: 30px;
+}
+
+#project-1 p {
+  font-family: var(--poppins);
+  font-weight: 200;
+  font-style: normal;
+  font-size: 1.25rem;
+}
+
+#project-1 a {
+  text-decoration: none;
+  margin-top: 0px;
+} */
+/* ----------------------------------- */
+#project-2 {
+  color: white;
+  background-color: black;
+  /* border: 3px solid var(--blue); */
+}
+
+#project-2 ul li {
+  color: white;
+  background-color: black;
+  font-family: var(--poppins);
+  font-weight: 300;
+  font-size: 1.15rem;
+}
+
+#project-2 a {
+  text-decoration: none;
+  font-family: var(--poppins);
+  font-weight: 400;
+  font-size: 1.15rem;
+}
+
+
