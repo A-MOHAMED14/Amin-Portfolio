@@ -13,6 +13,8 @@ body {
   background-color: black;
 }
 
+/* ------- NAVBAR STYLING  ------- */
+
 header {
   position: fixed;
   width: 100%;
@@ -38,6 +40,8 @@ nav li {
 nav a {
   text-decoration: none;
 }
+
+/* ------- BIO STYLING ------- */
 
 article {
   display: flex;
@@ -147,6 +151,8 @@ main {
     transform: rotate(0deg);
   }
 } */
+
+/* ------- FOOTER STYLING ------- */
 
 /* footer .container {
   color: white;
