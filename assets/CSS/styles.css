@@ -39,4 +39,113 @@ nav a {
   text-decoration: none;
 }
 
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 70px;
+  margin-right: 70px;
+  flex-basis: 600px;
+  /* flex: 1 1 200px; */
+  /* margin-bottom: 150px; */
+}
+
+.bio .greeting {
+  color: white;
+  font-family: var(--poppins);
+  font-weight: 400;
+  font-style: normal;
+  border: 0px solid white;
+  background-color: var(--blue);
+  border-radius: 9px;
+  padding: 8px 20px;
+  /* padding: 15px; */
+  margin-bottom: 20px;
+}
+
+.bio h1 {
+  color: var(--blue);
+  font-size: 4rem;
+  font-family: var(--poppins);
+  font-weight: 700;
+  font-style: normal;
+}
+
+.bio h2 {
+  color: lightgrey;
+  font-size: 1.75rem;
+  font-family: var(--poppins);
+  font-weight: 500;
+  font-style: normal;
+}
+
+.bio .summary {
+  color: rgb(146, 146, 146);
+  /* font-size: 1.25rem; */
+  font-family: var(--poppins);
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 10px;
+}
+
+.bio span {
+  color: var(--blue);
+  font-size: 1 rem;
+  font-family: var(--poppins);
+  font-weight: 400;
+  font-style: normal;
+}
+
+.submit input {
+  margin-top: 90px;
+  padding: 10px 35px;
+  border-radius: 10px;
+  border: 2px solid var(--blue);
+  background-color: black;
+  color: whitesmoke;
+
+  font-size: 1.15rem;
+  font-family: var(--poppins);
+  font-weight: 500;
+  font-style: normal;
+}
+
+.laptop {
+  float: right;
+  border-radius: 30px;
+  /* margin-right: 300px; */
+  /* <<<<< Add shadow effect to laptop >>>>>>>> */
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .wave {
+  display: inline-block;
+  animation: wave 2s infinite;
+  transform-origin: 70% 70%;
+}
+
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(30deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(-30deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+} */
+
 
