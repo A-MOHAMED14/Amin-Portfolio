@@ -450,44 +450,18 @@ textarea::placeholder {
 }
 
 /* ---------- FOOTER STYLING ---------- */
-
-/* footer .container {
-  color: white;
-} */
-
-/* footer h2 {
-  color: white;
-} */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 footer .links {
   display: flex;
   justify-content: space-evenly;
+  margin: 0 40px;
 }
 
-footer .github {
-  color: white;
-  border: 1px solid none;
-  /* padding: 50px 200px; */
-  margin: 0;
-  /* background-color: rgb(77, 77, 77); */
-  font-size: 2rem;
-}
-
-footer .linkedin {
-  color: white;
-  border: 1px solid none;
-  /* padding: 50px 280px; */
-  margin: 0;
-  /* background-color: rgb(51, 168, 207); */
-  font-size: 2rem;
-}
-
-footer .email {
-  display: flex;
-  color: white;
-  border: 1px solid none;
-  /* padding: 50px 280px; */
-  margin: 0;
-  /* background-color: blue; */
-  font-size: 2rem;
+footer .link {
+  margin: 0 15px 10px 15px;
 }
