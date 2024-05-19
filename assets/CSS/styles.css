@@ -452,6 +452,7 @@ textarea::placeholder {
 /* ---------- FOOTER STYLING ---------- */
 footer {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -464,4 +465,13 @@ footer .links {
 
 footer .link {
   margin: 0 15px 10px 15px;
+}
+
+footer .copyright {
+  margin: 20px 0 20px 0;
+  font-family: var(--poppins);
+  font-weight: 300;
+  font-style: normal;
+  color: white;
+  font-size: 1.15rem;
 }
