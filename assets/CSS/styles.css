@@ -373,6 +373,33 @@ p {
   padding: 20px;
 }
 
+#contact form {
+  align-self: center;
+  margin-top: 30px;
+}
+
+#contact form button {
+  align-self: center;
+}
+
+#contact form input {
+  padding: 15px;
+  width: 500px;
+  height: 45px;
+  border-radius: 6px;
+}
+
+#contact form textarea {
+  padding: 15px;
+  width: 500px;
+  height: 150px;
+  border-radius: 6px;
+}
+
+#contact form button {
+  border-radius: 6px;
+}
+
 #contact h2 {
   font-family: var(--poppins);
   font-weight: 600;
