@@ -353,6 +353,12 @@ p {
   font-size: 1.15rem;
 }
 
+#project-2 a:hover {
+  color: red;
+  font-size: 1.35rem;
+  font-weight: 600;
+}
+
 /* ---------- CONTACT STYLING ---------- */
 
 #contact-container {
