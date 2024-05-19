@@ -152,49 +152,6 @@ main {
   }
 } */
 
-/* ---------- FOOTER STYLING ---------- */
-
-/* footer .container {
-  color: white;
-} */
-
-/* footer h2 {
-  color: white;
-} */
-
-footer .links {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-footer .github {
-  color: white;
-  border: 1px solid none;
-  /* padding: 50px 200px; */
-  margin: 0;
-  /* background-color: rgb(77, 77, 77); */
-  font-size: 2rem;
-}
-
-footer .linkedin {
-  color: white;
-  border: 1px solid none;
-  /* padding: 50px 280px; */
-  margin: 0;
-  /* background-color: rgb(51, 168, 207); */
-  font-size: 2rem;
-}
-
-footer .email {
-  display: flex;
-  color: white;
-  border: 1px solid none;
-  /* padding: 50px 280px; */
-  margin: 0;
-  /* background-color: blue; */
-  font-size: 2rem;
-}
-
 /* ---------- ABOUT ME STYLING ---------- */
 
 #about-me-container {
@@ -273,12 +230,30 @@ p {
   margin-bottom: 75px;
 }
 
-#technologies .col-sm-4 {
+#technologies .col-sm-4 .tech-item {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 30px;
-  border: 1px solid white;
+  /* padding: 0px; */
+  margin: 20px;
+  /* border-right: 1px solid var(--blue);
+  border-left: 1px solid var(--blue);
+  border-bottom: 1px solid var(--blue);
+  border-radius: 10px; */
+  flex: 1 1 350px;
+  width: 340px;
+}
+
+#technologies .col-sm-4 .tech-item .tech-name {
+  font-family: var(--poppins);
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.25rem;
+}
+
+#technologies .col-sm-4 .tech-item:hover {
+  box-shadow: 5px 5px 12px var(--blue);
 }
 
 /* #technologies .tech-container {
@@ -356,7 +331,7 @@ p {
   text-decoration: none;
   margin-top: 0px;
 } */
-/* ----------------------------------- */
+/* <<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>> */
 #project-2 {
   color: white;
   background-color: black;
@@ -439,9 +414,53 @@ p {
   font-style: normal;
 }
 
-#contact form input::placeholder, textarea::placeholder{
+#contact form input::placeholder,
+textarea::placeholder {
   color: white;
   font-family: var(--poppins);
   font-weight: 300;
   font-style: normal;
+}
+
+/* ---------- FOOTER STYLING ---------- */
+
+/* footer .container {
+  color: white;
+} */
+
+/* footer h2 {
+  color: white;
+} */
+
+footer .links {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+footer .github {
+  color: white;
+  border: 1px solid none;
+  /* padding: 50px 200px; */
+  margin: 0;
+  /* background-color: rgb(77, 77, 77); */
+  font-size: 2rem;
+}
+
+footer .linkedin {
+  color: white;
+  border: 1px solid none;
+  /* padding: 50px 280px; */
+  margin: 0;
+  /* background-color: rgb(51, 168, 207); */
+  font-size: 2rem;
+}
+
+footer .email {
+  display: flex;
+  color: white;
+  border: 1px solid none;
+  /* padding: 50px 280px; */
+  margin: 0;
+  /* background-color: blue; */
+  font-size: 2rem;
 }
