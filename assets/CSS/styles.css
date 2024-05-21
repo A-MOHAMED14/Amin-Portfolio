@@ -46,6 +46,12 @@ nav a {
 }
 
 /* ------------ BIO STYLING ------------ */
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 article {
   display: flex;
@@ -58,7 +64,7 @@ article {
   /* margin-bottom: 150px; */
 }
 
-.bio .greeting {
+#bio .greeting {
   color: white;
   font-family: var(--poppins);
   font-weight: 400;
@@ -71,7 +77,7 @@ article {
   margin-bottom: 20px;
 }
 
-.bio h1 {
+#bio h1 {
   color: var(--blue);
   font-size: 4rem;
   font-family: var(--poppins);
@@ -79,7 +85,7 @@ article {
   font-style: normal;
 }
 
-.bio h2 {
+#bio h2 {
   color: lightgrey;
   font-size: 1.75rem;
   font-family: var(--poppins);
@@ -87,7 +93,7 @@ article {
   font-style: normal;
 }
 
-.bio .summary {
+#bio .summary {
   color: rgb(146, 146, 146);
   /* font-size: 1.25rem; */
   font-family: var(--poppins);
@@ -123,13 +129,6 @@ article {
   border-radius: 30px;
   /* margin-right: 300px; */
   /* <<<<< Add shadow effect to laptop >>>>>>>> */
-}
-
-main {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 /* .wave {
