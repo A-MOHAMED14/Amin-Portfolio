@@ -36,13 +36,21 @@ nav li {
   margin: 0 10px 0 10px;
   padding: 10px;
   font-family: var(--poppins);
-  font-weight: 700;
+  font-weight: 500;
   font-style: normal;
+  font-size: 1.1rem;
 }
 
 nav a {
   text-decoration: none;
-  color: lightgrey;
+  color: rgb(145, 145, 145);
+  border-bottom: 3px solid transparent;
+}
+
+nav a:hover {
+  color: white;
+  border-bottom: 3px solid var(--blue);
+  transition: 0.3s ease-in;
 }
 
 /* ------------ BIO STYLING ------------ */
