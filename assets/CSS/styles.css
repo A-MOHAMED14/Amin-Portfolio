@@ -8,9 +8,13 @@
   margin: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  /* background: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%); */
   background-color: black !important;
+  /* background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460, #5534a5) !important; */
 }
 
 /* ------- NAVBAR STYLING  ------- */
@@ -34,11 +38,11 @@ nav li {
   font-family: var(--poppins);
   font-weight: 700;
   font-style: normal;
-  color: lightgrey;
 }
 
 nav a {
   text-decoration: none;
+  color: lightgrey;
 }
 
 /* ------------ BIO STYLING ------------ */
