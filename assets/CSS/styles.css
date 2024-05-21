@@ -30,8 +30,8 @@ nav ul {
   justify-content: flex-end;
   list-style: none;
   margin: 20px 20px 0 0;
-  /* position: fixed; */
 }
+
 nav li {
   margin: 0 10px 0 10px;
   padding: 10px;
@@ -180,14 +180,16 @@ article {
 /* ---------- ABOUT ME STYLING ---------- */
 
 #about-me-container {
-  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 #about-me {
+  height: 100vh;
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
   align-items: flex-start;
   flex: 1 1 800px;
@@ -201,7 +203,7 @@ article {
   font-weight: 600;
   font-style: normal;
   font-size: 2rem;
-  margin-bottom: 150px;
+  margin-bottom: 100px;
 }
 
 #about-me p {
@@ -213,23 +215,20 @@ article {
   margin-bottom: 20px;
 }
 
-/* #about-me h2,
-p {
-  color: white;
-  margin-bottom: 20px;
-} */
-
 /* --------- TECHNOLOGIES STYLING --------- */
 
 #technologies-container {
-  height: 100vh;
+  /* height: 100vh; */
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 #technologies {
+  /* height: 100vh; */
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
   align-items: flex-start;
   flex: 1 1 800px;
@@ -299,13 +298,13 @@ p {
 /* ---------- PROJECTS STYLING ---------- */
 
 #projects-container {
-  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 #projects {
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -387,20 +386,22 @@ p {
 /* ---------- CONTACT STYLING ---------- */
 
 #contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-bottom: 200px; */
+}
+
+#contact {
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
-}
-
-#contact {
-  display: flex;
   flex-direction: column;
   align-items: flex-start;
   flex: 1 1 800px;
   max-width: 1100px;
-  color: white;
   padding: 20px;
 }
 
