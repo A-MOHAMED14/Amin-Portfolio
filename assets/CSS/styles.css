@@ -359,6 +359,7 @@ article {
 #project-2 {
   color: white;
   background-color: black;
+  z-index: -1;
   /* border: 3px solid var(--blue); */
 }
 
@@ -379,7 +380,7 @@ article {
 
 #project-2 a:hover {
   color: red;
-  font-size: 1.35rem;
+  /* font-size: 1.35rem; */
   font-weight: 600;
 }
 
