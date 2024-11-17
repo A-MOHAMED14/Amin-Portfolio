@@ -50,7 +50,7 @@ nav a {
 nav a:hover {
   color: white;
   border-bottom: 3px solid var(--blue);
-  transition: 0.3s ease-in;
+  transition: 0.2s ease-in;
 }
 
 /* ------------ BIO STYLING ------------ */
@@ -202,13 +202,14 @@ article {
   font-family: var(--poppins);
   font-weight: 600;
   font-style: normal;
-  font-size: 2rem;
+  font-size: 3rem;
   margin-bottom: 100px;
+  border-bottom: 10px solid var(--blue);
 }
 
 #about-me p {
   font-family: var(--poppins);
-  font-weight: 200;
+  font-weight: 400;
   font-style: normal;
   font-size: 1.2rem;
   line-height: 1.6;
@@ -217,84 +218,70 @@ article {
 
 /* --------- TECHNOLOGIES STYLING --------- */
 
-#technologies-container {
-  /* height: 100vh; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 #technologies {
-  /* height: 100vh; */
+  height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  align-items: flex-start;
-  flex: 1 1 800px;
-  max-width: 1100px;
-  color: white;
-  padding: 20px;
-  color: white;
 }
 
 #technologies h2 {
   font-family: var(--poppins);
   font-weight: 600;
   font-style: normal;
-  font-size: 2rem;
-  margin-bottom: 10px;
+  font-size: 3rem;
+  color: white;
+  margin-bottom: 20px;
+  border-bottom: 10px solid var(--blue);
 }
 
 #technologies p {
   font-family: var(--poppins);
-  font-weight: 200;
+  font-weight: 300;
   font-style: normal;
-  font-size: 1.2rem;
+  font-size: 1.25rem;
+  color: white;
   margin-bottom: 75px;
 }
 
-#technologies .col-sm-4 .tech-item {
+#technologies-container {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* padding: 0px; */
-  margin: 20px;
-  /* border-right: 1px solid var(--blue);
-  border-left: 1px solid var(--blue);
-  border-bottom: 1px solid var(--blue);
-  border-radius: 10px; */
-  flex: 1 1 350px;
-  width: 340px;
+  gap: 50px;
 }
 
-#technologies .col-sm-4 .tech-item .tech-name {
+.tech-icons img {
+  border-radius: 7px;
+}
+
+.technology-name {
+  color: white;
   font-family: var(--poppins);
-  font-weight: 400;
-  font-style: normal;
-  font-size: 1.25rem;
+  font-weight: 500;
+  margin-top: 5px;
+  text-align: center;
 }
 
-#technologies .col-sm-4 .tech-item:hover {
-  box-shadow: 5px 5px 12px var(--blue);
-}
-
-/* #technologies .tech-container {
+.technology-border {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-left: 250px;
+
+  border: 3px solid;
+  border-image: linear-gradient(to right, purple, blue) 1;
+  border-radius: 10px;
+  padding: 15px 30px;
+  margin-bottom: 30px;
+
+  transition: transform 0.3s ease;
 }
 
-#technologies .tech-container .name {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-} */
-
+.technology-border:hover {
+  transform: scale(1.1);
+}
 /* ---------- PROJECTS STYLING ---------- */
 
 #projects-container {
