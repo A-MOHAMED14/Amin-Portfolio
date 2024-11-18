@@ -1,5 +1,5 @@
 :root {
-  --blue: rgb(85, 80, 248);
+  --blue: #5550f8;
   --poppins: "Poppins", sans-serif;
 }
 
@@ -23,6 +23,8 @@ header {
   position: fixed;
   width: 100%;
   top: 0;
+  z-index: 1;
+  background-color: rgb(0, 0, 0);
 }
 
 nav ul {
@@ -284,91 +286,99 @@ article {
 }
 /* ---------- PROJECTS STYLING ---------- */
 
-#projects-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 #projects {
-  height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  flex: 1 1 800px;
-  max-width: 1100px;
-  color: white;
-  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 20px;
 }
 
 #projects h2 {
   font-family: var(--poppins);
   font-weight: 600;
   font-style: normal;
-  font-size: 2rem;
-  margin-bottom: 20px;
-}
-
-#projects p {
-  font-family: var(--poppins);
-  font-weight: 200;
-  font-style: normal;
-  font-size: 1.2rem;
+  font-size: 3rem;
+  color: white;
   margin-bottom: 100px;
+  text-align: center;
+  border-bottom: 10px solid var(--blue);
+  padding-bottom: 10px;
 }
 
-/* #project-1 {
-  border: 3px solid red;
+#projects-container {
+  width: 100%;
+  max-width: 1750px;
+  display: flex;
+  flex-direction: column;
+  gap: 150px;
+}
+
+.project {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+  margin: 0 15px;
+}
+
+.project-img img {
+  border: 7px solid #f85555;
   border-radius: 10px;
-
+  max-width: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-#project-1 h3 {
+.project-img img:hover {
+  transform: scale(0.95);
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.project-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.project-info h3 {
+  font-family: var(--poppins);
+  font-weight: 600;
+  font-style: normal;
+  font-size: 2.5rem;
+  color: white;
+}
+
+.project-info p {
   font-family: var(--poppins);
   font-weight: 400;
-  font-style: normal;
-  font-size: 1.5rem;
-  margin-top: 30px;
-}
-
-#project-1 p {
-  font-family: var(--poppins);
-  font-weight: 200;
   font-style: normal;
   font-size: 1.25rem;
+  color: #cccccc;
 }
 
-#project-1 a {
-  text-decoration: none;
-  margin-top: 0px;
-} */
-/* <<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>> */
-#project-2 {
-  color: white;
-  background-color: black;
-  z-index: -1;
-  /* border: 3px solid var(--blue); */
-}
-
-#project-2 ul li {
-  color: white;
-  background-color: black;
-  font-family: var(--poppins);
-  font-weight: 300;
-  font-size: 1.15rem;
-}
-
-#project-2 a {
+.project-info a {
   text-decoration: none;
   font-family: var(--poppins);
-  font-weight: 400;
-  font-size: 1.15rem;
-}
-
-#project-2 a:hover {
-  color: red;
-  /* font-size: 1.35rem; */
   font-weight: 600;
+  font-style: normal;
+  font-size: 1.1rem;
+  color: white;
+  margin: 10px 0;
+  padding: 10px 20px;
+  background-color: transparent;
+  border: 2px solid var(--blue);
+  border-radius: 5px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.project-info a:hover {
+  background-color: #5550f8;
+  color: black;
+  border-color: #5550f8;
 }
 
 /* ---------- CONTACT STYLING ---------- */
