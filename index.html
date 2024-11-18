@@ -187,8 +187,6 @@
       </div>
     </div>
 
-    <!-- ------------------------------------------------------------------------------------------------ -->
-
     <div id="projects">
       <h2>Projects</h2>
 
@@ -274,51 +272,46 @@
 
     <div id="contact-container">
       <section id="contact">
-        <h2>Contact/Get In Touch</h2>
+        <h2>Contact</h2>
         <p>
-          Thank you for visiting my portfolio! If you have any questions,
-          opportunities, or just want to say hello, feel free to reach out to
-          me.
+          I’d love to hear from you! Whether it’s a question, an opportunity, or
+          just a friendly hello, feel free to get in touch.
         </p>
 
-        <form>
-          <label for="name"></label>
+        <form id="contact-form">
+          <label for="name" class="visually-hidden">Name</label>
           <input
             type="text"
             id="name"
             name="name"
-            size="30"
-            placeholder="Enter your name"
+            placeholder="Your Name"
             required
           />
-          <br />
-          <br />
-          <label for="email"></label>
+
+          <label for="email" class="visually-hidden">Email</label>
           <input
             type="email"
             id="email"
             name="email"
-            size="30"
-            placeholder="Enter your email "
+            placeholder="Your Email"
             required
           />
-          <br />
-          <br />
-          <label for="message"></label>
+
+          <label for="message" class="visually-hidden">Message</label>
           <textarea
             id="message"
             name="message"
+            placeholder="Your Message"
             rows="5"
-            cols="22"
-            placeholder="Enter your message"
             required
           ></textarea>
-          <br />
-          <br />
-          <button type="submit">SUBMIT</button>
+
+          <button type="submit">Send Message</button>
         </form>
       </section>
     </div>
+
+    <!-- ------------------------------------------------------------------------------------------------ -->
 
     <footer>
       <div class="links-container">
