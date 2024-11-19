@@ -278,7 +278,17 @@
           just a friendly hello, feel free to get in touch.
         </p>
 
-        <form id="contact-form">
+        <form
+          action="https://api.web3forms.com/submit"
+          method="POST"
+          id="contact-form"
+        >
+          <input
+            type="hidden"
+            name="access_key"
+            value="d2a2513f-933c-45ed-b94c-a6277c5b7399"
+          />
+
           <label for="name" class="visually-hidden">Name</label>
           <input
             type="text"
