@@ -14,7 +14,6 @@ html {
 
 body {
   background-color: black !important;
-  /* background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460, #5534a5) !important; */
 }
 
 /* ------- NAVBAR STYLING  ------- */
@@ -181,11 +180,17 @@ article {
 
 /* ---------- ABOUT ME STYLING ---------- */
 
-#about-me-container {
+#about {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 50px;
 }
+
+/* #photo img {
+  border-radius: 150%;
+  border: solid 4px greenyellow;
+} */
 
 #about-me {
   height: 100vh;
@@ -324,6 +329,7 @@ article {
 
 .project-img img {
   border: 7px solid #f85555;
+  border: 7px solid rgb(152, 253, 0);
   border-radius: 10px;
   max-width: 100%;
   object-fit: cover;
@@ -391,7 +397,6 @@ article {
   background-color: #1a1a1a;
 }
 
-/* Section Styling */
 #contact {
   display: flex;
   flex-direction: column;
