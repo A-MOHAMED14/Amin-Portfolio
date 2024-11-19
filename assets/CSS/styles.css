@@ -75,7 +75,7 @@ nav a:hover {
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: -1;
+  z-index: 1;
   overflow: hidden;
 }
 
@@ -155,6 +155,29 @@ nav a:hover {
   100% {
     transform: rotate(0deg);
   }
+}
+
+/* ------------- BACKGROUND ANIMATION ---------- */
+
+.video-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.video-background video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  filter: brightness(0.75);
 }
 
 /* ---------- ABOUT ME STYLING ---------- */
@@ -303,7 +326,6 @@ nav a:hover {
 
 .project-img img {
   border: 7px solid #f85555;
-  border: 7px solid rgb(152, 253, 0);
   border-radius: 10px;
   max-width: 100%;
   object-fit: cover;
