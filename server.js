@@ -1,4 +1,5 @@
 const express = require("express");
+const path = require("path");
 const bodyParser = require("body-parser");
 const nodemailer = require("nodemailer");
 const cors = require("cors");
@@ -12,6 +13,10 @@ const PORT = 5000;
 
 app.use(bodyParser.json());
 app.use(cors());
+
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "index.html"));
+});
 
 app.post("/api/send-email", async (req, res) => {
   const { name, email, message } = req.body;
