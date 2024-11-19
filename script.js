@@ -8,11 +8,14 @@ document
     const message = document.getElementById("message").value;
 
     try {
-      const response = await fetch("http://localhost:5000/api/send-email", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ name, email, message }),
-      });
+      const response = await fetch(
+        "https://amin-portfolio-s0bx.onrender.com/api/send-email",
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ name, email, message }),
+        }
+      );
 
       if (response.ok) {
         alert("Message sent successfully!");
